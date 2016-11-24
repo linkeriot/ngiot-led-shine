@@ -8,5 +8,5 @@ while true; do
 		python led.py 40 $ACTION
     ACTION=0
 	fi
-	sleep 1
+	sleep 3
 done
