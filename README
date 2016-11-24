@@ -1,0 +1,4 @@
+
+PIN1 = Plugin the "LED Vcc" to PIN1.
+
+docker run --restart=always --privileged -v /var/log:/var/log -e PIN1=7 -d led
