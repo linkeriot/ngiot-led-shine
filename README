@@ -1,4 +1,15 @@
+# NGIoT LED Example
 
-PIN1 = Plugin the "LED Vcc" to PIN1.
+This is a example for NGIoT and should depend on NGIoT backbone running. If you are interest with NGIoT, please contact us.
 
-docker run --restart=always --privileged -v /var/log:/var/log -e PIN1=7 -d led
+Build service
+
+```
+make build
+```
+
+Run service
+
+```
+make run
+```
